@@ -1,3 +1,6 @@
 = UrlEncodingValidator
 
-This project rocks and uses MIT-LICENSE.
+Middleware that reponds with 400 for GET request with malformed params e.g. "/?foo=bar%"
+= Usage
+Add in environment.rb
+config.middleware.use "UrlEncodingValidator::Middleware"
