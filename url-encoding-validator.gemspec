@@ -7,11 +7,11 @@ require "url-encoding-validator/version"
 Gem::Specification.new do |s|
   s.name        = "url-encoding-validator"
   s.version     = UrlEncodingValidator::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of UrlEncodingValidator."
-  s.description = "TODO: Description of UrlEncodingValidator."
+  s.authors     = ["Jakub Nieznalski"]
+  s.email       = ["j.nieznalski@autohaus24.de"]
+  s.homepage    = ""
+  s.summary     = "Validate for malformed params on get"
+  s.description = "Return 400 when params don't represent proper percent-encoding"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
