@@ -4,3 +4,7 @@ Middleware that reponds with 400 for GET request with malformed params e.g. "/?f
 = Usage
 Add in environment.rb
 config.middleware.use "UrlEncodingValidator::Middleware"
+
+== License
+
+MIT License. Copyright 2013 autohaus24 GmbH
