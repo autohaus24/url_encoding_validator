@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    url-encoding-validator (0.0.2.lk1299)
+    url-encoding-validator (0.0.2.lk1299.rc1)
       activesupport (>= 4.1)
 
 GEM
