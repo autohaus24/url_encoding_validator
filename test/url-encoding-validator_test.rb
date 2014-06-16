@@ -1,7 +1,7 @@
 require 'test_helper'
 require 'url-encoding-validator'
 
-class UrlEncodingValidatorTest < Test::Unit::TestCase
+class UrlEncodingValidatorTest < Minitest::Unit::TestCase
   should "return 400 response when query_string contains invalid percent encoding" do
     assert_equal 400, UrlEncodingValidator::Middleware.new(stub).call({"QUERY_STRING" => "foobar%"}).first
   end
